@@ -1,0 +1,40 @@
+.box {
+  width: 50vw;
+  height: 50vw;
+  background: url(https://joeweaver.me/codepenassets/freecodecamp/challenges/build-a-pomodoro-clock/bg.png) no-repeat center center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+.box .timer {
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.box .timer .title {
+  color: #FF8B8A;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 3px 0 1px;
+}
+.countdown {
+  color: #ff778d;
+  display: flex;
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 43px;
+}
+.start {  
+  color: #FF6292;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.start:hover {
+  color: #ff4980;
+}
