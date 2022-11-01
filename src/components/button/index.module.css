@@ -3,7 +3,7 @@
   width: 50vw;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .timeOpt {
   display: flex;
@@ -50,20 +50,4 @@ input::-webkit-outer-spin-button{
   margin: 7.2px 5.2px;
   padding: 5.2px 7.2px;    
   outline: 0;
-}
-.operation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.operation div{
-  background: linear-gradient(#fff0f0, #ffd2e0);
-  border-radius: 10px;
-  color: #FF6292;
-  text-align: center;
-  border-bottom: 4.43px solid #FF6292;
-  font: bold 28.43px "Open Sans", sans-serif;
-  margin: 7.2px 5.2px;
-  padding: 5.2px 7.2px;   
-  cursor: pointer;
 }

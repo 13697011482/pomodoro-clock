@@ -26,7 +26,7 @@
   font-weight: 600;
   line-height: 43px;
 }
-.start {  
+.button {  
   color: #FF6292;
   font-size: 15px;
   font-weight: 700;
@@ -35,6 +35,6 @@
   text-align: center;
   text-transform: uppercase;
 }
-.start:hover {
+.button:hover {
   color: #ff4980;
 }
