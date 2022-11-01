@@ -3,7 +3,7 @@
  * @Author: chentianyao
  * @Date: 2022-10-28 15:49:43
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-11-01 09:50:12
+ * @LastEditTime: 2022-11-01 16:00:58
  * Copyright: 2022 xxxTech CO.,LTD. All Rights Reserved.
  * @Descripttion: 
  */
@@ -56,7 +56,7 @@ const DisplayModule: React.FC<IDisplayModuleProps> = ({
     const { minute, second } = calcTime(time)
     setMinute(minute)
     setSecond(second)
-    time -= 10
+    time --
     setPauseTime(time)
     timer.current = setTimeout(() => {
       dealTime(time, type ==='session' ? 'session' : 'rest')
